@@ -20,10 +20,18 @@
       
         <div class="d-flex ms-auto mb-1 me-3">
           <div class="me-3">
-            <button id="reset" class="btn btn-warning btn-lg" type="submit">&#128472;</button>
+            <!-- <button id="load" class="btn btn-light fw-bold px-3" type="submit">Load</button> -->
+            <label for="load" class="btn btn-light fw-bold px-3">Load</label>
+            <input type="file" id="load" class="d-none">
+          </div>
+          <div class="me-3">
+            <button id="save" class="btn btn-primary fw-bold px-3" type="submit">Save</button>
+          </div>
+          <div class="me-3">
+            <button id="reset" class="btn btn-warning fw-bold px-3" type="submit">&#128472;</button>
           </div>
           <div class="">
-            <button id="submit" class="btn btn-success btn-lg ps-4 pe-4" type="submit">Run</button>
+            <button id="submit" class="btn btn-success fw-bold px-4" type="submit">Run</button>
           </div>
         </div>
     </div>
